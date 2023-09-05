@@ -1,8 +1,38 @@
-h1{
-    color: blue;
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #003049;
+}
+
+h1, h3, p, li {
+    color: #FCBF49;
+    text-align: center;
 }
 
 .recipe-image{
     height: 400px;
     width: 400px;
+    border-radius: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+.recipe-image:hover{
+    height: 500px;
+    width: 500px;
+}
+
+ul, ol{
+    list-style-type: none;
+    padding: 1px;
+}
+
+a{
+    color:#EAE2B7;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
